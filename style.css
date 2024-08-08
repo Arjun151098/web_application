@@ -127,6 +127,121 @@
 }
 
 
+.m {
+   height: 800px;
+   
+}
+
+.about_img {
+    position: relative;
+top: 35%;
+}
+
+
+
+.font > h1 {
+   
+  
+    font-size: 50px;
+    font-style: bold;
+    font-weight: 800;
+}
+
+.font > h3 {
+   
+  
+    font-size: 30px;
+    font-style: bold;
+    font-weight: 700px;
+}
+
+.font > p {
+   
+  
+    text-align: left;
+    margin: 30px;
+    font-size: 18px;
+    font-weight: 400;
+
+    
+}
+
+
+@media screen and (max-width: 700px) {
+
+    .img-top > img {
+        width: 300%;
+        height: 400px;
+        
+        justify-content: center;
+        align-items: center;
+       position: relative;
+       top:0px;
+       margin: 2px;
+       padding: 0px;
+
+    }
+
+    .fontbody  {
+        width: 100%;
+        font-size: 16px;
+        
+        
+    }
+
+
+    .fontbody  > h6{
+        width: 100%;
+        font-size: 18px;
+        text-align: center;
+        
+        
+    }
+
+    .fontbody > h3 {
+       
+        font-size: 30px;
+        font-weight: 60px;
+        font-variant: inherit;
+        padding: 5px;
+        text-align: center;
+        
+        
+    }
+
+
+    .fontbody > h1 {
+        text-align: center;
+        padding: 5px;
+        font-size: 25px;
+    }
+
+    .fontbody > .insidepara {
+        text-align: center;
+
+    }
+
+    .fontbody > p {
+        text-align:center;
+        font-size: 16px;
+        
+    }
+
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
