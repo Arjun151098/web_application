@@ -2,7 +2,10 @@
 
 .mm {
     justify-content: center;
-    background-color: black
+    background-color: black;
+    position: relative;
+    top: 0;
+    z-index: 0px;
     
 }
 
@@ -93,6 +96,8 @@
     .navy >  a {
         color  : white;
     }
+
+  
 
 
    
@@ -247,13 +252,47 @@ top: 35%;
         text-align: center;
     }
 
+    .btn-video {
+        width: 50%;
+       height: 40%;
+    }
+
+    .navicon {
+              background-color: rgb(200, 225, 13);
+              border-radius: 10px;
+              width: 30px;
+    }
+
     
     
 }
 
 
+.scrolled-down{
+    transform:translateY(-100%); transition: all 0.3s ease-in-out;
+  }
+  .scrolled-up{
+    transform:translateY(0); transition: all 0.3s ease-in-out;
+  }
+
+  .navbards {
+    position: relative;
+    top:0px;
+    background-color:black;
+  }
 
 
+
+
+.insidenav  a{
+      text-decoration: none;
+      /* color:#f1b500; */
+      color:aliceblue
+}
+
+.insidenav  a:hover {
+    color:#f1b500;
+}
 
 
 
